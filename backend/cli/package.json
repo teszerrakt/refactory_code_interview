@@ -1,0 +1,40 @@
+{
+	"name": "refactory-db",
+	"description": "Gets all user data from the Database",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"refactoryDB": "index.js",
+		"data": "index.js"
+	},
+	"author": {
+		"name": "Zaky Syihab Hatmoko",
+		"email": "zaky.syihab@gmail.com",
+		"url": "https://zsyihab.tech/"
+	},
+	"keywords": [
+		"refactoryDB",
+		"Zaky Syihab Hatmoko"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^5.0.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"dotenv": "^10.0.0",
+		"meow": "^9.0.0",
+		"mongoose": "^6.0.14"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.0"
+	}
+}
